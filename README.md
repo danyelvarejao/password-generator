@@ -17,9 +17,9 @@
 </p>
 
 <div style="display: flex">
-    <img src="./.github/images/1.png" width="33%" />
-    <img src="./.github/images/2.png" width="33%" />
-    <img src="./.github/images/3.png" width="33%" />
+    <img src="./.github/images/1.png" width="30%" />
+    <img src="./.github/images/2.png" width="30%" />
+    <img src="./.github/images/3.png" width="30%" />
 </div>
 
 ## 💻 Informações sobre o projeto
