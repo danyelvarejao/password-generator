@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'app/app_initialization.dart';
-import 'app/app_widget.dart';
+import 'src/app/app_initialization.dart';
+import 'src/app/app_widget.dart';
 
 void main() {
   AppInitialization.init();
