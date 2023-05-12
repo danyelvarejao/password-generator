@@ -16,11 +16,11 @@
   </a>
 </p>
 
-<div style="display: flex; justify-content: center;">
+<p align="center">
     <img src="./.github/images/1.png" width="30%" />
     <img src="./.github/images/2.png" width="30%" />
     <img src="./.github/images/3.png" width="30%" />
-</div>
+</p>
 
 ## 💻 Informações sobre o projeto
 
