@@ -16,7 +16,7 @@
   </a>
 </p>
 
-<div style="display: flex">
+<div style="display: flex; justify-content: center;">
     <img src="./.github/images/1.png" width="30%" />
     <img src="./.github/images/2.png" width="30%" />
     <img src="./.github/images/3.png" width="30%" />
