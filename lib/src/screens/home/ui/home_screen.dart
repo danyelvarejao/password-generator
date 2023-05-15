@@ -14,7 +14,7 @@ class HomeScreen extends StateManagerView<HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.veryDarkGrey,
-      body: SafeArea(
+      body: SingleChildScrollView(
         child: Center(
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -174,24 +174,16 @@ class HomeScreen extends StateManagerView<HomeController> {
                                     Text(passwordStrength.name),
                                     const SizedBox(width: 16.0),
                                     StrengthSquare(
-                                      color: passwordStrength.index >= PasswordStrength.tooWeak.index
-                                          ? passwordStrength.color
-                                          : null,
+                                      color: passwordStrength.index >= PasswordStrength.tooWeak.index ? passwordStrength.color : null,
                                     ),
                                     StrengthSquare(
-                                      color: passwordStrength.index >= PasswordStrength.weak.index
-                                          ? passwordStrength.color
-                                          : null,
+                                      color: passwordStrength.index >= PasswordStrength.weak.index ? passwordStrength.color : null,
                                     ),
                                     StrengthSquare(
-                                      color: passwordStrength.index >= PasswordStrength.medium.index
-                                          ? passwordStrength.color
-                                          : null,
+                                      color: passwordStrength.index >= PasswordStrength.medium.index ? passwordStrength.color : null,
                                     ),
                                     StrengthSquare(
-                                      color: passwordStrength.index >= PasswordStrength.strong.index
-                                          ? passwordStrength.color
-                                          : null,
+                                      color: passwordStrength.index >= PasswordStrength.strong.index ? passwordStrength.color : null,
                                     ),
                                   ],
                                 );
