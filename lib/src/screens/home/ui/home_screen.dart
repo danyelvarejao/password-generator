@@ -15,8 +15,8 @@ class HomeScreen extends StateManagerView<HomeController> {
     return Scaffold(
       backgroundColor: AppColors.veryDarkGrey,
       body: SafeArea(
-        child: SingleChildScrollView(
-          child: Center(
+        child: Center(
+          child: SingleChildScrollView(
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: Column(
